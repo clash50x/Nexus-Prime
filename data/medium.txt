@@ -1,0 +1,150 @@
+What is the output of: int a = 5; int b = 2; cout << a / b;
+A) 2 | B) 2.5 | C) 2.0 | D) 3
+A
+What is the value of 'x' after: int x = 10; x += x * 2;
+A) 30 | B) 20 | C) 40 | D) 15
+A
+What is the output of this loop: for(int i=0; i<3; i++) { cout << i;}
+A) 012 | B) 0123 | C) 123 | D) 0 1 2
+A
+If int arr[3] = {1, 2, 3}; what is the value of arr[3]?
+A) Undefined behavior / out of bounds | B) 3 | C) 0 | D) A compilation error
+A
+What is the output of: int y = 10; int x = y++; cout << x << ',' << y;
+A) 10,11 | B) 11,11 | C) 10,10 | D) 11,10
+A
+What is the output of: int y = 10; int x = ++y; cout << x << ',' << y;
+A) 11,11 | B) 10,11 | C) 11,10 | D) 10,10
+A
+What does the expression 15 % 4 evaluate to?
+A) 3 | B) 2 | C) 1 | D) 0
+A
+Given: string s = "ABC"; what does s.length() return?
+A) 3 | B) 4 | C) 2 | D) Undefined
+A
+What is the output of: cout << (5 > 3 && 2 == 4);
+A) 0 | B) 1 | C) true | D) false
+A
+How do you pass a variable by reference to a function header 'void compute(...)'?
+A) void compute(int &x) | B) void compute(int *x) | C) void compute(int x) | D) void compute(reference int x)
+A
+What will happen if you do not close an opened file stream using .close() explicitely?
+A) The file closes automatically when the object destructor runs | B) The file remains locked forever until reboot | C) The compiler throws a hard compilation error | D) Data corruption occurs instantly on runtime
+A
+What is the output of: int a = 5, b = 10; if(a = b) cout << "Equal"; else cout << "Not";
+A) Equal | B) Not | C) Compilation error | D) Nothing is printed
+A
+What is the output of: char c = 'A'; cout << (char)(c + 2);
+A) C | B) A2 | C) 67 | D) B
+A
+What does the keyword 'sizeof' return for a variable or type?
+A) Size in bytes | B) Size in bits | C) Number of characters inside it | D) Maximum value it can hold
+A
+What is the value of x after: int x = 5; while(x < 5) { x++;}
+A) 5 | B) 6 | C) 0 | D) Infinite loop
+A
+What is the output of: int i = 1; switch(i) { case 1: cout << '1'; case 2: cout << '2'; default: cout << '3'; }
+A) 123 | B) 1 | C) 12 | D) 23
+A
+What is the purpose of a constructor in a class definition?
+A) To initialize objects of that class structure | B) To destroy objects and free memory segments | C) To copy private methods to public sectors | D) To speed up function calls inside subclasses
+A
+Which of the following creates a dynamic integer array of size 10 on the heap?
+A) int* arr = new int[10]; | B) int arr = new int(10); | C) int* arr = malloc(10); | D) int arr[10] = new;
+A
+If a function does not return any value, what happens when you call: return 5; inside it?
+A) Compilation error | B) It compiles but returns 0 at runtime | C) It crashes the memory stack instantly | D) It converts the return type to int automatically
+A
+What is the output of: int x = 3; cout << (x << 1);
+A) 6 | B) 3 | C) 1 | D) 7
+A
+What is the correct syntax to inherit class B from class A publicly?
+A) class B : public A {} | B) class B extends A {} | C) class B implements A {} | D) class B -> public A {}
+A
+What is the output of: int a = 10, b = 20; int max = (a > b) ? a : b; cout << max;
+A) 20 | B) 10 | C) 1 | D) 0
+A
+What value is returned by 'cin >> x' when the input stream encounters an invalid data type?
+A) A false/fail state condition object | B) 0 | C) -1 | D) An EOF character flag
+A
+What is a reference variable in C++?
+A) An alias or alternative name for an existing variable | B) A variable containing a dynamic raw heap address | C) A tracking metric variable used for profiling loops | D) A local variable hidden within private scope
+A
+What happens if a class defines a member but doesn't specify access specifiers (public/private)?
+A) Members are private by default | B) Members are public by default | C) Members are protected by default | D) A compilation error is thrown
+A
+What is the output of: int x = 0; if(x) cout << "Yes"; else cout << "No";
+A) No | B) Yes | C) Compilation error | D) Nothing is printed
+A
+What does vector::push_back() do in the standard template library?
+A) Adds an element to the end of the vector stream | B) Removes the last element from the vector | C) Inserts an element at index position 0 | D) Resizes the vector container to zero capacity
+A
+What is the output of: int count = 0; do { count++; } while(count < 0); cout << count;
+A) 1 | B) 0 | C) Infinite loop | D) Compilation error
+A
+What does the pointer declaration int *ptr = nullptr; signify?
+A) The pointer points to no valid memory address safely | B) The pointer contains trash randomized addresses | C) The pointer is ready to allocate automatic space | D) The pointer points directly to address 1
+A
+What is the output of: int a[] = {10, 20, 30}; int *p = a; cout << *(p + 1);
+A) 20 | B) 10 | C) 30 | D) Address of a[1]
+A
+Which of the following accurately describes structural padding in C++ structs?
+A) Aligning memory blocks to matching hardware word cycles | B) Adding text comments into binary code output templates | C) Increasing string capacities with trailing spaces | D) Clearing stack local variable declarations securely
+A
+What is the output of: string s1 = "Hi", s2 = "Hi"; cout << (s1 == s2);
+A) 1 | B) 0 | C) true | D) false
+A
+How can you prevent a function parameter from being modified inside the body?
+A) By declaring the parameter variable as 'const' | B) By passing it via value tracking scopes only | C) By naming the variable with uppercase letters | D) By placing it inside a nested local block
+A
+What is the outcome of: double x = 5 / 2; cout << x;
+A) 2 | B) 2.5 | C) 2.0 | D) 3
+A
+What is the result of applying '!' operator on any integer value greater than 0?
+A) 0 (false) | B) 1 (true) | C) -1 | D) Compilation error
+A
+What happens when you use 'delete' on a pointer initialized to nullptr?
+A) Nothing, it is a safe operation in C++ | B) The system crashes with a segmentation fault | C) A dangling reference exception error is thrown | D) The compiler outputs a deprecation warning
+A
+What is the output of: int x = 10; { int x = 5; } cout << x;
+A) 10 | B) 5 | C) Undefined | D) Compilation error
+A
+Which function reads an entire line of text including spaces from an input stream?
+A) getline(cin, str) | B) cin >> str | C) cin.read(str) | D) get(cin, str)
+A
+What is the output of: cout << (10 || 0 && 5);
+A) 1 | B) 0 | C) 10 | D) 5
+A
+What is the index of the last element in an array of size N?
+A) N - 1 | B) N | C) 0 | D) N + 1
+A
+What is the output of: int a = 4, b = 3; cout << pow(a, b);
+A) 64 | B) 12 | C) 81 | D) 7
+A
+Which standard stream is used to display unbuffered error messages?
+A) cerr | B) cout | C) cin | D) clog
+A
+What is the output of: int x = 5; int *p = &x; *p = 10; cout << x;
+A) 10 | B) 5 | C) Memory address | D) Compilation error
+A
+What happens when a variable goes out of its scope block bounds?
+A) Its memory is freed/popped off the stack frame | B) It remains accessible but returns 0 default values | C) It transfers automatically to the global memory context | D) A memory leak error occurs instantly
+A
+What does the 'inline' keyword suggest to the compiler?
+A) To replace the function call directly with function body code | B) To place the complete function logic on the heap frame | C) To optimize loops nested inside that function scope | D) To hide the function definition from external modules
+A
+What is the output of: int arr[] = {1, 2}; cout << sizeof(arr)/sizeof(arr[0]);
+A) 2 | B) 8 | C) 4 | D) 1
+A
+How do you declare a multi-dimensional array of 2 rows and 3 columns?
+A) int arr[2][3]; | B) int arr[3][2]; | C) int arr[2,3]; | D) matrix arr(2,3);
+A
+What is the output of: string s = "test"; s[0] = 'W'; cout << s;
+A) West | B) test | C) W | D) Compilation error
+A
+Which loop check condition runs at least once regardless of truth evaluation?
+A) do-while | B) while | C) for | D) switch case structures
+A
+What is a memory leak?
+A) Allocating heap memory without releasing it back to the OS | B) Accessing memory beyond array bounds boundaries | C) Using variables without declaring them first | D) Losing a file handle reference inside local functions
+A

@@ -1,0 +1,150 @@
+What is the output of: int x = 5; int y = x++ + ++x; cout << y;
+A) 12 | B) 11 | C) 10 | D) Undefined behavior due to unsequenced modification
+D
+What is the output of: int a = 1; int b = 0; cout << (b && ++a) << ',' << a;
+A) 0,1 | B) 0,2 | C) 1,2 | D) 1,1
+A
+What does 'virtual' signify when used in a base class function declaration?
+A) It enables dynamic dispatch and polymorphism via vtables | B) It creates an abstract function that cannot have a body | C) It force-inline optimizes the assembly code output block | D) It forces parameters to pass via pointer tracking structures
+A
+What is the output of: int a = 0x10; int b = 010; cout << a + b;
+A) 24 | B) 20 | C) 18 | D) 16
+A
+What happens in: class T { public: ~T() { throw 1; } }; when an exception causes stack unwinding?
+A) The program terminates via std::terminate due to double exception flags | B) The exception is caught by the closest try-catch block successfully | C) The destructor handles the error internally and resumes execution threads | D) The runtime ignores the second exception object completely
+A
+What is the output of: void f(int) {cout << 1;} void f(double) {cout << 2;} ... f(0);
+A) 1 | B) 2 | C) Compilation error (ambiguous call) | D) Runtime error
+A
+What is the output of: char* p = "Hello"; *p = 'M'; cout << p;
+A) Runtime error / segmentation fault (modifying read-only memory) | B) Mello | C) Hello | D) Compilation error
+A
+What is the output of: int x = -1; unsigned int y = 1; cout << (x > y);
+A) 1 (true, due to integer promotion of -1 to max unsigned int) | B) 0 (false) | C) Compilation error | D) Undefined behavior
+A
+What is the size of an empty class object in standard C++?
+A) 1 byte (to ensure distinct memory addresses for objects) | B) 0 bytes | C) 4 bytes | D) 8 bytes
+A
+What is a dangling pointer?
+A) A pointer that references a memory address that has been freed | B) A pointer initialized to nullptr safely | C) A pointer that lacks an explicit type declaration wrapper | D) A pointer pointing to a global static variable structure
+A
+What is the output of: int a = 5; auto f = [a]() mutable { a++; return a; }; f(); cout << a;
+A) 5 | B) 6 | C) Compilation error | D) Undefined behavior
+A
+What happens in: ClassX *p = new ClassX[10]; delete p;
+A) Undefined behavior (only the first object is destroyed, memory leak/corruption) | B) All 10 objects are safely destroyed on the heap | C) A compilation error is triggered instantly | D) A runtime memory exception is thrown safely
+A
+What is the output of: cout << (sizeof('A') == sizeof(int));
+A) 0 (false, char is 1 byte, int is typically 4) | B) 1 (true, characters promote to int instantly) | C) Compiler dependent | D) Syntax error
+A
+What is the rule of three in C++ (pre-C++11)?
+A) If you define a destructor, copy constructor, or copy assignment operator, you likely need all three | B) A class must contain exactly three public fields to align safely | C) A program cannot contain more than three levels of class inheritance | D) Functions can accept a maximum of three arguments by reference parameters
+A
+What is the output of: int a = 10; int &r = a; int b = 20; r = b; cout << a;
+A) 20 | B) 10 | C) Address of b | D) Compilation error
+A
+What does the 'override' keyword accomplish in a derived class function?
+A) Forces the compiler to verify that a base class virtual function matches the signature | B) Replaces a macro definition from global scope entirely | C) Allows overriding private structural layout parameters | D) Converts a standard function into a thread-safe call block
+A
+What is the output of: int x = 1; cout << (x >> 32);
+A) Undefined behavior (shift count >= type bit width) | B) 0 | C) 1 | D) 32
+A
+What is object slicing in C++?
+A) When a derived class object is assigned to a base class object by value, losing derived data | B) Using pointer casting to access protected sub-methods directly | C) Splitting an active object allocation into multiple threads | D) A compilation error involving empty structure definitions
+A
+What is the output of: cout << (fma(2.0, 3.0, 4.0));
+A) 10.0 | B) 14.0 | C) 24.0 | D) 9.0
+A
+What happens when you declare a member variable as 'static' in a C++ class?
+A) One instance of the variable is shared across all objects of the class | B) The variable cannot be altered after object constructor routines | C) The variable is saved directly onto the hardware CPU register lines | D) The variable becomes thread-local by default setup templates
+A
+What is the output of: struct T { int x:4;}; T t; t.x = 8; cout << t.x;
+A) Dependent on signedness (could be -8 if 4-bit signed int overflows) | B) 8 | C) 0 | D) Compilation error
+A
+What is the purpose of std::move from the <utility> library?
+A) It casts its argument to an rvalue reference to enable move semantics | B) It physically moves data bytes across different network channels | C) It thread-safely copies local variables to a global structure segment | D) It frees deep heap pointers and safely sets them to nullptr
+A
+What is the output of: int a = 3, b = 2; cout << (a | b);
+A) 3 | B) 1 | C) 5 | D) 0
+A
+What happens if you invoke a virtual function inside a base class constructor?
+A) Dynamic dispatch is disabled; the base class version executes | B) The derived class version executes normally as expected | C) The system crashes with a pure virtual method call exception | D) The compiler blocks compilation with a hard error flag
+A
+What is the output of: cout << typeid(int).name();
+A) Compiler-dependent string representation of type | B) int | C) integer | D) 4
+A
+What is the purpose of a pure virtual function?
+A) To define an interface that derived classes MUST implement | B) To speed up calculation speeds using assembly optimizations | C) To allow functions to have multiple definitions inside one file | D) To prevent a class from ever being inherited by other scopes
+A
+What does the 'explicit' keyword do when applied to a constructor definition?
+A) Prevents the compiler from using the constructor for implicit type conversions | B) Forces the compiler to inline optimize every single object instantiation | C) Permits external code files to access private constructor routines | D) Forces initialization of fields to zero values automatically
+A
+What is the output of: int x = 10; auto f = [&x]() { x = 20; }; f(); cout << x;
+A) 20 | B) 10 | C) Compilation error | D) Undefined behavior
+A
+What happens when a class uses multiple inheritance and inherits the same base class twice?
+A) The diamond problem occurs, creating ambiguity unless virtual inheritance is used | B) The compiler automatically merges duplicate structures cleanly | C) A syntax exception is thrown before compilation starts | D) The program execution falls back to single-inheritance modes
+A
+What is the output of: cout << (nullptr == NULL);
+A) 1 (true, both evaluate to a null pointer/zero state) | B) 0 (false, types are totally incompatible) | C) Compilation error | D) Undefined behavior
+A
+What is the purpose of the 'volatile' keyword in C++?
+A) Informs the compiler that a variable can be modified by external hardware/threads, preventing optimization | B) Forces variables to store values inside heap sectors exclusively | C) Speeds up calculation loops by locking cache lines down | D) Automatically syncs variables across parallel network systems
+A
+What is the output of: int x = 10; int *p = &x; int **q = &p; cout << **q;
+A) 10 | B) Address of x | C) Address of p | D) Compilation error
+A
+What is a function pointer syntax for a function returning void and taking an int parameter?
+A) void (*ptr)(int) | B) void *ptr(int) | C) void ptr*(int) | D) function<void(int)> ptr
+A
+What is the output of: cout << (5 ^ 3);
+A) 6 | B) 8 | C) 2 | D) 15
+A
+What is the default capture mode of an empty lambda introducer '[]'?
+A) No external variables from the enclosing scope are captured | B) All external variables are captured by reference values | C) All external variables are captured by copy allocations | D) Only static and global variables are passed via copy schemas
+A
+What is the output of: int a = 5; int b = 5; cout << (a++ == ++b);
+A) 0 (false, comparison is 5 == 6) | B) 1 (true) | C) Compilation error | D) Undefined behavior
+A
+What does the keyword 'noexcept' guarantee to the compiler execution stack?
+A) The function will not throw any exceptions under any conditions | B) The function contains no error checks or condition loops | C) The function runs completely outside main thread loops | D) The function executes without allocating dynamic memory pointers
+A
+What is the output of: int x = 0; switch(x) { default: cout << 'D'; case 0: cout << '0'; }
+A) 0 | B) D0 | C) 1 | D) Compilation error
+A
+What does the 'friend' keyword do when specified inside a class declaration?
+A) Grants an external function or class full access to its private and protected members | B) Protects sub-methods from being inherited by child objects | C) Allows variables to be shared globally across source files safely | D) Forces a function to run concurrently inside secondary threads
+A
+What is the output of: int a = 2, b = 3; cout << (a & b);
+A) 2 | B) 3 | C) 0 | D) 5
+A
+What happens if you try to modify a const member function's class fields?
+A) Compilation error (unless fields are explicitly marked as 'mutable') | B) It updates normally at runtime execution tracks | C) The change is temporary and rolls back on function exit | D) A segmentation fault occurs instantly on execution
+A
+What is the output of: cout << (~0 == -1);
+A) 1 (true, in two's complement notation) | B) 0 (false) | C) Compilation error | D) Undefined behavior
+A
+What is a tracking smart pointer std::unique_ptr?
+A) A pointer template managing a unique resource with exclusive ownership semantics | B) A pointer that tracks reference counts across asynchronous systems | C) A pointer that safely handles cyclic object tracking bugs | D) A pointer that can only read data fields without writing
+A
+What is the output of: int x = 1; x = x << 31; cout << (x < 0);
+A) Implementation-defined / depends on signed integer overflow rules | B) 1 | C) 0 | D) Compilation error
+A
+What is the purpose of template specialization in C++ architectures?
+A) To define a totally custom implementation for a specific template argument combination | B) To make generic templates compile significantly faster during builds | C) To prevent a class template from being instantiated with pointers | D) To force template routines to execute inside static stack blocks
+A
+What is the output of: vector<int> v; cout << v.capacity(); when empty?
+A) 0 (or implementation dependent initial allocator size) | B) Always 10 | C) Throws an empty container exception error | D) Undefined behavior
+A
+What does the RAII (Resource Acquisition Is Initialization) paradigm mean?
+A) Resource lifecycle management is tied directly to object lifetime scopes via stack destructors | B) All objects must be initialized at compilation time instead of runtime | C) Memory blocks are kept clear by scanning for dangling address lines | D) All dynamic pointers require registration inside standard arrays
+A
+What is the output of: int x = 10; int y = 20; swap(x, y); cout << x << ',' << y;
+A) 20,10 | B) 10,20 | C) 20,20 | D) 10,10
+A
+What occurs when a thread calls std::thread::join()?
+A) The calling thread blocks execution until the target thread finishes its task | B) The target thread terminates immediately regardless of current state | C) The thread moves onto a background threadpool handling queue systems | D) A compilation error occurs unless asynchronous tasks match
+A
+What is the output of: cout << (sizeof(long long) >= sizeof(int));
+A) 1 (true, guaranteed by the C++ standard specification minimums) | B) 0 (false) | C) Compiler dependent entirely | D) Syntax error
+A

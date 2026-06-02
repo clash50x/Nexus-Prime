@@ -1,0 +1,150 @@
+Which of the following is a valid integer declaration in C++?
+A) float x = 5;  | B) int x = 5; | C) char x = '5'; | D) string x = 5;
+B
+What is the correct file extension for a C++ source file?
+A) .h | B) .c | C) .cpp | D) .exe
+C
+Which operator is used for logical 'AND' in C++?
+A) & | B) || | C) ! | D) &&
+D
+What is the index of the first element in a C++ array?
+A) -1 | B) 1 | C) 0 | D) Any number
+C
+Which keyword is used to return a value from a function?
+A) continue | B) break | C) return  | D) exit
+C
+Which data type is used to store a single character?
+A) char | B) string | C) unit | D) float
+A
+What does 'cout' do in C++?
+A) Exits the loop | B) Takes input from the user | C) Compiles the program | D) Outputs data to the console
+D
+Which loop is guaranteed to execute at least once?
+A) while | B) do-while | C) for | D) foreach
+B
+What symbol is used to end a statement in C++?
+A) : | B) ; | C) , | D) .
+B
+How do you insert a single-line comment in C++?
+A) // | B) /* | C) # | D) --
+A
+Which header file is required to use 'cout' and 'cin'?
+A) <include> | B) <console> | C) <string> | D) <iostream>
+D
+What is the size of a standard 'bool' data type in C++?
+A) 0 byte | B) 1 bytes | C) 2 bytes | D) 4 bytes
+B
+Which of these represents a block of code in C++?
+A) { } | B) ( ) | C) [ ] | D) < >
+A
+What is the correct way to declare a constant variable?
+A) constant int X = 10; | B) fix int X = 10; | C) const int X := 10; | D) immutable int X = 10;
+A
+Which operator is used for division in C++?
+A) / | B) \ | C) % | D) *
+A
+What does the modulus operator (%) return?
+A) The modulus of a division | B) The quotient of a division | C) The percentage of a number | D) The remainder
+D
+Which function is the starting point of execution in every C++ program?
+A) include<> | B) start() | C) main() | D) init()
+C
+Which data type is best suited to store true/false values?
+A) flag | B) int | C) char | D) bool
+D
+How do you start a standard 'for' loop?
+A) for (int i = 0, i < 10, i++) | B) for i = 1 to 10 | C) for (i inside 10) | D) for (int i = 0; i < 10; i++) 
+D
+What does 'cin' do in C++?
+A) Takes input from the standard input file | B) Takes input from the standard input stream | C) Clears the console screen | D) Includes a system library
+B
+Which keyword is used to represent an empty or non-returning function?
+A) void | B) null | C) empty | D) blank
+A
+How do you include a standard library file in C++?
+A) #include <foldername> | B) import <filename> | C) package <filename> | D) include <filename>
+D
+What is the value of 5 + 3 * 2 in C++?
+A) 16 | B) 11 | C) 10 | D) 15
+B
+Which string escape sequence represents a newline character?
+A) endl | B) \t | C) \n | D) \next
+C
+What does the 'break' statement do inside a switch case?
+A) Terminates the switch block immediately | B) Restarts the whole program | C) Skips to the next condition case | D) Throws an exception error
+A
+Which data type stores fractional numbers like 3.14?
+A) decimal | B) int | C) single | D) double
+D
+Which operator is used to assign a value to a variable?
+A) == | B) = | C) * | D) :=
+B
+What is a syntax error?
+A) A loophole in the programming language grammar rules | B) An error that occurs during program execution | C) A bug giving incorrect output calculations | D) A mistake in the programming language grammar rules
+D
+Which of the following is NOT a reserved keyword in C++?
+A) struct | B) flag | C) double | D) int
+B
+What happens when you increment a variable using 'x++'?
+A) 1 is increases by its value | B) Its value doubles | C) Its value increases by 1 | D) Its value becomes zero
+C
+Which header file is needed to perform standard file I/O operations?
+A) <file.h> | B) <fstream> | C) <iomanip> | D) <fileio>
+B
+What keyword is used to access public elements of a class?
+A) public | B) static | C) local | D) global
+A
+How do you access an element at index 3 of an array named 'arr'?
+A) arr[3] | B) arr(3) | C) arr{3} | D) *(arr + 2)
+A
+Which operator is used to compare if two values are completely equal?
+A) = | B) = | C) != | D) ==
+D
+What is the purpose of an 'else' block?
+A) Executes if the 'if' condition is true | B) Executes if the 'if' condition is false | C) Executes repeatedly in a loop structure | D) Declares local variables for checking
+B
+Which of the following is a valid variable name in C++?
+A) my_variable | B) 1stVariable | C) my-variable | D) public
+D
+What is the correct way to define a string variable containing text?
+A) string s = "Hello"; | B) char s = "Hello"; | C) string s = 'Hello'; | D) text s = "Hello";
+A
+What does 'endl' do when used with cout?
+A) Clears the active screen buffer area | B) Terminates the entire execution thread | C) Inserts a newline and flushes the stream buffer | D) Enters a secure encrypted debug mode
+C
+Which operator is used for logical 'NOT' in C++?
+A) not | B) ~ | C) null | D) !
+D
+What is an infinite loop?
+A) A loop that terminates on its own | B) A loop that executes exactly 100 times | C) A loop nested inside another functional loop | D) A loop that never ends
+D
+Which loop evaluates its condition expression at the very top?
+A) switch | B) do-while | C) while | D) if
+C
+What does 'C++' stand for or originate from?
+A) An extension of the C language | B) Computer Plus Plus enterprise standard | C) Core Programming Paradigm protocol | D) Cyber Processing Systems standard
+A
+How do you declare a pointer variable pointing to an integer?
+A) *int ptr; | B) int* PtR; | C) pointer int ptr; | D) int &ptr;
+B
+What is a function parameter?
+A) A variable declared in the function definition header | B) The output result value returned to code | C) The memory size allocated to store code | D) A system error handler container flag
+A
+Which C++ statement allows you to make a multi-way branch choice?
+A) for | B) while | C) switch | D) return
+C
+What is the default return type of main() if omitted in standard?
+A) int | B) void | C) null | D) default
+A
+Which library contains common math functions like sqrt() or pow()?
+A) <cmath> | B) <iostream> | C) <maths> | D) <algorithm>
+A
+How do you define an empty array of 5 integers in C++?
+A) int arr[5]; | B) int arr = 5; | C) array<5> arr; | D) int arr(5);
+A
+What does the 'continue' keyword do inside a loop?
+A) Pauses execution for a set time period | B) Exits the entire loop structure immediately | C) Restarts the program from the beginning | D) Skips the rest of the current loop iteration
+D
+What is a class in Object-Oriented Programming?
+A) A blueprint or template for creating objects | B) A built-in simple primitive data type module | C) A function that executes automatically on startup | D) An array storing different string objects
+A
